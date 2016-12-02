@@ -1,0 +1,11 @@
+IMPORT math
+
+n <- user input
+
+DEFINE sqr(n)
+	IF (math.sqrt(n) + 0.5) ** 2 = n
+		RETURN True
+	ELSE:
+		RETURN False
+
+PRINT result

@@ -1,0 +1,6 @@
+sentence <- user input
+
+words <- split sentence
+words_reversed <- reverse words
+
+PRINT result

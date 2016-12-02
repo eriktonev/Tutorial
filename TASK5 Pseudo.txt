@@ -1,0 +1,43 @@
+m1 <- matrix
+m2 <- matrix
+res <- empty matrix
+
+FOR i IN RANGE(len(m1))
+	FOR j IN RANGE(len(m1[o]))
+		res[i][j] = m1[i][j] + m2 [i][j]
+
+PRINT result
+
+m1 <- matrix
+m2 <- matrix
+res <- empty matrix
+
+FOR i IN RANGE(len(m1))
+	FOR j IN RANGE(len(m1[o]))
+		res[i][j] = m1[i][j] - m2 [i][j]
+
+PRINT result
+
+m1 <- matrix
+m2 <- matrix
+res <- empty matrix
+
+FOR i IN RANGE(len(m1))
+	FOR j IN RANGE(len(m1[o]))
+		res[i][j] = m1[i][j] * m2 [i][j]
+
+PRINT result
+
+B = matrix
+C = matrix
+A = empty matrix
+
+FOR i IN RANGE(len(B)):
+    FOR j IN RANGE(len(C[0])):
+        res[i][j] = B[i][j] * C[i][j] - 2 * (B[i][j] + C[i][j]) 
+
+PRINT result
+
+BigO is: 
+
+Could do all three with the same code ?

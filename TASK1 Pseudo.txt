@@ -1,0 +1,10 @@
+IMPORT 'random' library                                         
+								
+numbers <- {1, 2, 3, 4, 5, 6, 7, 8, 9, 10}			
+numbers_to_output <- 10					
+	
+random_numbers <- random.sample(numbers, numbers_to_output)	
+
+PRINT result							
+
+BigO is O(n)

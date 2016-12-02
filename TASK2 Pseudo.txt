@@ -1,0 +1,29 @@
+m <- user input									
+n <- 0										
+
+DEFINE fact(m)									
+
+	IF m < 0								
+		print Sorry but negative numbers dont have factorials'		
+	ELSE
+		i <- 2								
+		temp <- 1							
+		WHILE 1 <= m							
+			temp*= i						
+			i += 1							
+		RETURN temp							
+
+DEFINE trailingZ(m)								
+	f <- fact(m)								
+	f <- str(f)								
+	r <- f[::-1]							
+	rNum <- int(r)								
+	rNum <- str(rNum)							
+	RETURN(len(r) - len(rNum))						
+
+IF m < 0									
+	do nothing
+ELSE:											
+	PRINT result								
+
+BigO: O(n)

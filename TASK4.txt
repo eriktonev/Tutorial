@@ -1,0 +1,1 @@
+I believe that both tasks bigO notaion is O(n)

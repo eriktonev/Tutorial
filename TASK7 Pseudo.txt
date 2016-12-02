@@ -1,0 +1,19 @@
+n <- user input
+
+DEFINE is_prime(n, a <-1)
+
+	IF n = 2
+		prime <- TRUE
+	ELIF n <= 1 or n%2 = 0
+		prime <- FALSE
+	ELIF a * a > n
+		prime <- TRUE
+	ELIF n % a = 0
+		prime <- FALSE
+	ELSE
+		prime <- is_prime(n, a + 2)
+
+	RETURN prime
+
+PRINT output
+	

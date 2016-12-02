@@ -1,0 +1,14 @@
+word <- user input				
+						
+DEFINE removeVow(word) function			
+	vow <- ["a", "e", "i", "o", "u"]	
+	chars <- []				
+        					
+	FOR i in word 				
+		IF i is not in vow		
+			add extracted character to a list 
+						
+	RETURN join 'extracted' characters	
+						
+PRINT result				
+
